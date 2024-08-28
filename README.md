@@ -1,2 +1,16 @@
-# cardiovascular-disease-detection
-보건의료빅데이터를 활용한 암 생존자의 심혈관질환 발병 예측모델
+readme_content = """
+# 🏥 암 생존자의 심혈관질환 발병 예측 모델
+
+이 저장소는 **보건의료 빅데이터**를 활용하여 암 생존자들의 심혈관질환(Ischemic Heart Disease, Heart Attack, Heart Failure) 발병 여부를 예측하는 모델을 구축한 프로젝트입니다.
+
+## 🚀 프로젝트 개요
+
+암 생존자는 과거 치료와 지속적인 건강 문제로 인해 심혈관질환의 위험이 높아질 수 있습니다. 본 프로젝트는 암 생존자들의 심혈관질환 발병 가능성을 예측하는 강력한 모델을 구축하여, 조기 개입과 더 나은 건강 관리를 가능하게 하는 것을 목표로 합니다.
+
+## 📂 저장소 구조
+
+```bash
+├── ensemble.py          # 앙상블 학습 
+├── feature_selection.py # 특징 선택 기법 구현
+├── mlp.py               # MLP 모델 학습
+└── train.py             # 머신러닝 기반 모델 및 TabNet 학습
