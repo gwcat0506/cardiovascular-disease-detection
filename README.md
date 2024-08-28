@@ -1,4 +1,3 @@
-readme_content = """
 # 🏥 암 생존자의 심혈관질환 발병 예측 모델
 
 이 저장소는 **보건의료 빅데이터**를 활용하여 암 생존자들의 심혈관질환(Ischemic Heart Disease, Heart Attack, Heart Failure) 발병 여부를 예측하는 모델을 구축한 프로젝트입니다.
